@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.container{
+    overflow: hidden;
+}
+.content{
+    width: 60%;
+    height: 450px;
+    background-color: yellow;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+.sidebar{
+    width: 40%;
+    height: 450px;
+    background-color: rgb(255, 72, 0);
+    float: left;
+    text-align: center;
+    align-items: center;
+}
+.news{
+    height: 80%;
+    width: 50%;
+    background-color: violet;
+    text-align: center;
+    float: left;
+}
+.recent{
+    height: 80%;
+    width: 50%;
+    background-color: rgb(233, 68, 109);
+    text-align: center;
+    float: left;
+}
+.bottom{
+    height: 20%;
+    /* width: 50%; */
+    background-color: rgb(22, 154, 216);
+    text-align: center;
+    /* float: left; */
+}
+.subscribe{
+    height: 25%;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+}
+.popular{
+    height: 25%;
+    width: 80%;
+    background-color: rgb(236, 19, 19);
+    text-align: center;
+}
+.contributors{
+    height: 25%;
+    width: 80%;
+    background-color: rgb(236, 185, 19);
+    text-align: center;
+}
+.footer{
+    height: 200px;
+    background-color: teal;
+    align-items: center;
+}
+.footer_content{
+    height: 90%;
+    width: 90%;
+    background-color: wheat;
+    text-align: center;
+}
